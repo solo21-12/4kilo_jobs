@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onDragDetected="#onHelloButtonClick" prefHeight="704.0" prefWidth="919.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculator.HelloController">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #7D6CC8;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btn1" alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutY="14.0" mnemonicParsing="false" onAction="#div" prefHeight="38.0" prefWidth="199.0" style="-fx-background-color: #52438F;" text="Profile" textFill="#fcf8f8" />
+            <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutY="59.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="199.0" style="-fx-background-color: #52438F;" text="New Application" textFill="#ebf0f2" />
+            <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" layoutY="107.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="199.0" style="-fx-background-color: #52438F;" text="Previous Application" textFill="#faf1f1" />
+            <Button alignment="BASELINE_LEFT" layoutY="154.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="199.0" style="-fx-background-color: #52438F;" text="Applicant list" textFill="#faf4f4" />
+            <Button alignment="BASELINE_LEFT" layoutY="201.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="199.0" style="-fx-background-color: #52438F;" text="log out" textFill="#faf4f4" />
+         </children>
+      </AnchorPane>
+   </left>
+   <top>
+      <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #52438F;" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="4 Killo" textFill="#f2ecec">
+               <font>
+                  <Font name="Berlin Sans FB" size="25.0" />
+               </font>
+            </Label>
+            <Label text="Jobs " textFill="#faf0f0">
+               <font>
+                  <Font name="Bodoni MT Condensed Bold Italic" size="46.0" />
+               </font>
+            </Label>
+         </children></HBox>
+   </top>
+   <center>
+      <Label fx:id="lab1" onDragDetected="#onHelloButtonClick" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
